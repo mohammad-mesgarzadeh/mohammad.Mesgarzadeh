@@ -1,6 +1,6 @@
 # personalSite
 
-[Demo Project](https://mohammad-mesgarzadeh.github.io/mohammad.Mesgarzadeh/)
+[Project](https://mohammad-mesgarzadeh.github.io/mohammad.Mesgarzadeh/)
 
 - get in touch with me via *mohammadmesgarzadeh8@gmail.com*
 

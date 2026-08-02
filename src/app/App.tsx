@@ -219,7 +219,7 @@ export default function App() {
       title: 'VESTA - Online Fashion Store',
       desc: 'Modern e-commerce platform featuring product browsing, cart management, search, filtering, and responsive design',
       link: 'https://mohammad-mesgarzadeh.github.io/online-shop/',
-      techs: ['React', 'Vite', 'Tailwind CSS', 'JavaScript', 'React Router DOM'],
+      techs: ['React', 'Vite', 'Bootstrap', 'JavaScript', 'React Router DOM'],
       image: onlineShop
     }, {
       title: 'Donito - Redesigned Website',

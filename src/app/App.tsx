@@ -1,13 +1,12 @@
 // assets/Portfolio
-import countryButcherAvada from '../assets/Portfolio/country-butcher-avada.webp';
-import calculator from '../assets/Portfolio/calculator.webp';
+
+import linkedinSearchEngine from '../assets/Portfolio/linkedin-search-engine.webp';
+import TaskFlow from '../assets/Portfolio/TaskFlow.webp';
 import adminPanel from '../assets/Portfolio/adminpanel.webp';
 import morseCodeTranslator from '../assets/Portfolio/MorseCodeTranslator.webp';
-import toDoList from '../assets/Portfolio/To-do list.webp';
 import Weather from '../assets/Portfolio/Weather.webp';
 import PBX from '../assets/Portfolio/Telecom & PBX Solutions Platform.webp';
 import onlineShop from '../assets/Portfolio/online-shop.webp';
-import donitoRedesigned from '../assets/Portfolio/Donito-Redesigned.webp';
 // assets
 import developerWorkspace from '../assets/Developer workspace.jfif';
 // assets/Skills
@@ -208,26 +207,45 @@ export default function App() {
   ];
 
   const projects = [
-    { title: 'Country Butcher', desc: 'A modern landing page for a butcher shop built with clean HTML & CSS.', link: 'https://mohammad-mesgarzadeh.github.io/First-project-country-butcher-avada-/', techs: ['HTML', 'CSS'], image: countryButcherAvada },
-    { title: 'Calculator', desc: 'Fully functional calculator app with keyboard support and clean UI.', link: 'https://mohammad-mesgarzadeh.github.io/calculator/', techs: ['HTML', 'Tailwind', 'JS'], image: calculator },
-    { title: 'To-Do List', desc: 'Task manager with local storage persistence and smooth interactions.', link: 'https://mohammad-mesgarzadeh.github.io/To-Do-List/', techs: ['HTML', 'Tailwind', 'JS'], image: toDoList },
-    { title: 'Weather App', desc: 'Real-time weather lookup using public API with dynamic UI updates.', link: 'https://mohammad-mesgarzadeh.github.io/Weather/', techs: ['HTML', 'Tailwind', 'JS'], image: Weather },
-    { title: 'Morse Translator', desc: 'Convert text to Morse code and back with audio playback support.', link: 'https://mohammad-mesgarzadeh.github.io/Morse-code-translator/', techs: ['HTML', 'Tailwind', 'JS'], image: morseCodeTranslator },
-    { title: 'Admin Panel', desc: 'Fully responsive admin dashboard with sidebar and data tables.', link: 'https://mohammad-mesgarzadeh.github.io/admin-panel/', techs: ['HTML', 'Tailwind', 'JS'], image: adminPanel },
-    { title: 'Telecom & PBX Solutions Platform', desc: 'Professional telecom and PBX website showcasing services, training, and projects', link: 'https://mohammad-mesgarzadeh.github.io/reza-mesgarzadeh/', techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Vite', 'Framer Motion / Motion'], image: PBX },
     {
       title: 'VESTA - Online Fashion Store',
       desc: 'Modern e-commerce platform featuring product browsing, cart management, search, filtering, and responsive design',
       link: 'https://mohammad-mesgarzadeh.github.io/online-shop/',
       techs: ['React', 'Vite', 'Bootstrap', 'JavaScript', 'React Router DOM'],
       image: onlineShop
-    }, {
-      title: 'Donito - Redesigned Website',
-      desc: 'Redesigned and modernized version of Donito with an improved user interface, responsive layouts, and enhanced user experience',
-      link: 'https://mohammad-mesgarzadeh.github.io/Donito-Redesigned/',
-      techs: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS'],
-      image: donitoRedesigned
-    }];
+    },
+    {
+      title: 'LinkedIn Dataset Search Engine',
+      desc: 'Full-stack search engine for LinkedIn profiles with keyword search, skills and job title filters, pagination, and a PostgreSQL data pipeline',
+      link: 'https://github.com/mohammad-mesgarzadeh/linkedin-search-engine/tree/main',
+      techs: ['React', 'TypeScript', 'Vite', 'Node.js', 'Express', 'Prisma', 'PostgreSQL', 'Docker Compose'],
+      image: linkedinSearchEngine
+    },
+    {
+      title: 'TaskFlow — Project Management Platform',
+      desc: 'Full-stack Jira-inspired project management app with issue tracking, role-based access, and drag-and-drop Kanban boards.',
+      link: 'https://github.com/mohammad-mesgarzadeh/taskflow',
+      techs: [
+        'React',
+        'TypeScript',
+        'Vite',
+        'Tailwind CSS',
+        'shadcn/ui',
+        'Zustand',
+        'TanStack Query',
+        'NestJS',
+        'Prisma',
+        'PostgreSQL',
+        'Docker'
+      ],
+      image: TaskFlow
+    },
+    { title: 'Admin Panel', desc: 'Fully responsive admin dashboard with sidebar and data tables.', link: 'https://mohammad-mesgarzadeh.github.io/admin-panel/', techs: ['HTML', 'Tailwind', 'JS'], image: adminPanel },
+    { title: 'Telecom & PBX Solutions Platform', desc: 'Professional telecom and PBX website showcasing services, training, and projects', link: 'https://mohammad-mesgarzadeh.github.io/reza-mesgarzadeh/', techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Vite', 'Framer Motion / Motion'], image: PBX },
+    { title: 'Weather App', desc: 'Real-time weather lookup using public API with dynamic UI updates.', link: 'https://mohammad-mesgarzadeh.github.io/Weather/', techs: ['HTML', 'Tailwind', 'JS'], image: Weather },
+    { title: 'Morse Translator', desc: 'Convert text to Morse code and back with audio playback support.', link: 'https://mohammad-mesgarzadeh.github.io/Morse-code-translator/', techs: ['HTML', 'Tailwind', 'JS'], image: morseCodeTranslator },
+
+  ];
 
   return (
     <div id='home' className={darkMode ? 'dark' : ''}>

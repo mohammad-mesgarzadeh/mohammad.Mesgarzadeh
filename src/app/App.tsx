@@ -1,6 +1,7 @@
 // assets/Portfolio
 
 import linkedinSearchEngine from '../assets/Portfolio/linkedin-search-engine.webp';
+import aliAsgharEbrahimiPortfolio from '../assets/Portfolio/ali-asghar-ebrahimi-portfolio.webp';
 import TaskFlow from '../assets/Portfolio/TaskFlow.webp';
 import adminPanel from '../assets/Portfolio/adminpanel.webp';
 import morseCodeTranslator from '../assets/Portfolio/MorseCodeTranslator.webp';
@@ -242,6 +243,13 @@ export default function App() {
     },
     { title: 'Admin Panel', desc: 'Fully responsive admin dashboard with sidebar and data tables.', link: 'https://mohammad-mesgarzadeh.github.io/admin-panel/', techs: ['HTML', 'Tailwind', 'JS'], image: adminPanel },
     { title: 'Telecom & PBX Solutions Platform', desc: 'Professional telecom and PBX website showcasing services, training, and projects', link: 'https://mohammad-mesgarzadeh.github.io/reza-mesgarzadeh/', techs: ['React', 'TypeScript', 'Tailwind CSS', 'Vite', 'Vite', 'Framer Motion / Motion'], image: PBX },
+    {
+      title: 'Ali Asghar Ebrahimi Portfolio',
+      desc: 'A premium, responsive portfolio website for a civil engineer and project manager, showcasing professional experience, construction projects, technical skills, and engineering expertise.',
+      link: 'https://mohammad-mesgarzadeh.github.io/ali-asghar-ebrahimi-portfolio/',
+      techs: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Lucide React'],
+      image: aliAsgharEbrahimiPortfolio,
+    },
     { title: 'Weather App', desc: 'Real-time weather lookup using public API with dynamic UI updates.', link: 'https://mohammad-mesgarzadeh.github.io/Weather/', techs: ['HTML', 'Tailwind', 'JS'], image: Weather },
     { title: 'Morse Translator', desc: 'Convert text to Morse code and back with audio playback support.', link: 'https://mohammad-mesgarzadeh.github.io/Morse-code-translator/', techs: ['HTML', 'Tailwind', 'JS'], image: morseCodeTranslator },
 
